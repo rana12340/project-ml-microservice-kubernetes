@@ -54,8 +54,7 @@ source ~/.devops/bin/activate
 # output_txt_files - project output files (docker, kubernetes)
 # docker_out.txt - Copy and paste this terminal output, which has log info, in a text file
 # kubernetes_out.txt - run_kubernetes.sh output
-# kubernetes_prediction_out.txt - make_prediction.sh output while running k8s pod
-# app.py - python web application entry point file
+# app.py - python web application entry point file with log entry
 # Dockerfile - docker image config
 # make_prediction.sh - make prediction HTTP/8080 call script
 # Makefile - make file (install, test, lint steps)
