@@ -27,7 +27,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 ## Setup the Environment
 
 ### Create a virtualenv and activate it
-### Using Win Powershell
+### Using Powershell
 python3 -m venv ~/.devops
 source ~/.devops/bin/activate
 
@@ -42,9 +42,7 @@ source ~/.devops/bin/activate
 ### Docker
 1. Publish docker image: `./upload_docker.sh`
 
-
 ### Kubernetes Steps
-
 * Setup and Configure Docker locally
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
@@ -54,9 +52,7 @@ source ~/.devops/bin/activate
 # .circleci - circleci config scripts
 # model_data - ML model related data (model, csv data)
 # output_txt_files - project output files (docker, kubernetes)
-# docker_out.txt - Copy and paste this terminal output, which has log info, in a text file    --Done
-# docker_prediction_out.txt - make_prediction.sh output while running docker 
-# kubernetes_container_logs.txt - kubectl logs output for the pod
+# docker_out.txt - Copy and paste this terminal output, which has log info, in a text file
 # kubernetes_out.txt - run_kubernetes.sh output
 # kubernetes_prediction_out.txt - make_prediction.sh output while running k8s pod
 # app.py - python web application entry point file
@@ -64,6 +60,6 @@ source ~/.devops/bin/activate
 # make_prediction.sh - make prediction HTTP/8080 call script
 # Makefile - make file (install, test, lint steps)
 # requirements.txt - web application dependencies (python, libraries)
-# run_docker.sh/bat - run docker container script
-# run_kubernetes.sh - run kubernetes pod for the web app script
-# upload_docker.sh - upload docker image to dicker hub script
+# run_docker.sh - run docker container
+# run_kubernetes.sh - run kubernetes pod for the web app
+# upload_docker.sh - upload docker image to docker hub
